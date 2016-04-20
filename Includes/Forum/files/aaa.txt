@@ -1,0 +1,4 @@
+sudo invoke-rc.d apache2 start
+
+
+ln -s /etc/phpmyadmin/apache.conf /etc/apache2/conf.d/apache.conf

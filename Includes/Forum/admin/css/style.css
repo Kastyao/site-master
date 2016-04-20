@@ -1,0 +1,720 @@
+html {
+	height: 100%;
+	margin-bottom: 1px;
+}
+.aa
+{
+    color:black;
+}
+/* Normal, standard links. */
+a:link, a:visited {
+	color: #b43c01;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+/* Navigation links - for the link tree. */
+.nav, .nav:link, .nav:visited {
+	color: #000000;
+	text-decoration: none;
+}
+
+a.nav:hover {
+	color: #cc3333;
+	text-decoration: underline;
+}
+
+/* Tables should show empty cells. */
+
+/* By default (td, body..) use verdana in black. */
+body, th {
+	line-height: 150%;
+	font-family: tahoma, sans-serif;
+	color: #565656;
+	font-size: 12px;
+}
+
+/* The main body of the entire forum. */
+body {
+	background: #9f9f95;
+	padding: 0;
+	margin: 0;
+}
+
+/* Input boxes - just a bit smaller than normal so they align well. */
+input, textarea, button {
+	color: #000000;
+	font-family: verdana, sans-serif;
+}
+
+input, button {
+	font-size: 100%;
+}
+
+textarea {
+	font-size: 100%;
+	color: #000000;
+	font-family: verdana, sans-serif;
+}
+
+/* All input elements that are checkboxes or radio buttons. */
+input.check {}
+
+/* Selects are a bit smaller, because it makes them look even better 8). */
+select {
+	font-size: 100%;
+	font-weight: normal;
+	color: #000000;
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+}
+
+/* Standard horizontal rule.. ([hr], etc.) */
+hr, .hrcolor {
+	height: 1px;
+	border: 0;
+	color: #999;
+	background-color: #989898;
+}
+
+/* No image should have a border when linked */
+a img {
+	border: 0;
+}
+
+/* A quote, perhaps from another post. */
+.quote {
+	color: #343434;
+	background-color: #d3d3c9;
+	border: 2px solid #989898;
+	margin: 1px;
+	padding: 5px;
+	font-size: 11px;
+	line-height: 1.4em;
+}
+
+/* A code block - maybe even PHP ;). */
+.code {
+	color: #fff;
+	background-color: #d57b4f;
+	font-family: "courier new", "times new roman", monospace;
+	font-size: 11px;
+	line-height: 1.3em;
+	/* Put a nice border around it. */
+	border-top: 2px solid #b43c01;
+	border-bottom: 2px solid #b43c01;
+	margin: 1px auto 1px auto;
+	padding: 2px;
+	width: 99%;
+	/* Don't wrap its contents, and show scrollbars. */
+	white-space: nowrap;
+	overflow: auto;
+	/* Stop after about 24 lines, and just show a scrollbar. */
+	max-height: 24em;
+}
+
+/* The "Quote:" and "Code:" header parts... */
+.quoteheader, .codeheader {
+	color: #282828;
+	text-decoration: none;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 11px;
+	line-height: 1.2em;
+}
+
+/* Generally, those [?] icons.  This makes your cursor a help icon. */
+.help {
+	cursor: help;
+}
+
+/* /me uses this a lot. (emote, try typing /me in a post.) */
+.meaction {
+	color: red;
+}
+
+/* The main post box - this makes it as wide as possible. */
+.editor {
+	width: 96%;
+}
+
+/* Highlighted text - such as search results. */
+.highlight {
+	background-color: yellow;
+	font-weight: bold;
+	color: black;
+}
+
+/* Alternating backgrounds for posts, and several other sections of the forum. */
+.windowbg {
+	background: #efefe6;
+}
+
+.windowbg2 {
+	background: #fff;
+}
+
+.windowbg3 {
+	background: #e4e4db;
+}
+
+/* the today container in calendar */
+.calendar_today {
+	background: #f5f5f5;
+}
+
+/* These are used primarily for titles, but also for headers (the row that says what everything in the table is.) */
+.titlebg, tr.titlebg th, tr.titlebg td, .titlebg2, tr.titlebg2 th, tr.titlebg2 td {
+	color: #fff;
+	font-style: normal;
+	background: #852c01 url(../images/titlebg.png) repeat-x;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.titlebg, .titlebg a:link, .titlebg a:visited {
+	color: #fff;
+	font-style: normal;
+	font-size: 12px;
+}
+
+.titlebg a:hover {
+	text-decoration: underline;
+}
+
+.titlebg2 td, td.titlebg tr td {
+	color: white;
+}
+
+/* same as titlebg, but used where bold text is not needed */
+.titlebg2 a:link, .titlebg2 a:visited {
+	color: #eee;
+	font-style: normal;
+	text-decoration: underline;
+}
+
+.titlebg2 a:hover {
+	color: #b2b2b2;
+}
+
+/* This is used for categories, page indexes, and several other areas in the forum.
+.catbg and .catbg2 is for boardindex, while .catbg3 is for messageindex and display headers*/
+.catbg, tr.catbg td, .catbg3, tr.catbg3 td {
+	color: #282828;
+	padding-left: 10px;
+	padding-right: 10px;
+	background: #8b8b81 url(../images/catbg.png) repeat-x;
+}
+
+.catbg2, tr.catbg2 td {
+	color: #404040;
+	padding-left: 10px;
+	padding-right: 10px;
+	background: #8b8b81 url(../images/catbg.png) repeat-x;
+}
+
+.catbg, .catbg2, .catbg3 {}
+
+.catbg, .catbg2 {
+	font-weight: normal;
+	font-size: 11px;
+	text-transform: uppercase;
+}
+
+.catbg3, tr.catbg3 td, .catbg3 a:link, .catbg3 a:visited {
+	font-size: 95%;
+	color: #454545;
+	text-decoration: none;
+}
+
+.catbg a:link, .catbg a:visited, .catbg2 a:link, .catbg2 a:visited {
+	color: #333;
+	text-decoration: none;
+}
+
+.catbg a:hover, .catbg2 a:hover, .catbg3 a:hover {
+	color: #000;
+}
+
+/* This is used for tables that have a grid/border background color (such as the topic listing.) */
+.bordercolor {
+	background-color: #d5d2d2;
+	padding: 0px;
+}
+
+/* This is used on tables that should just have a border around them. */
+.tborder {
+	padding: 1px;
+	border: 1px solid #d5d2d2;
+}
+
+/* Default font sizes: small (8pt), normal (10pt), and large (14pt). */
+.smalltext, .middletext, small {
+	font-size: 11px;
+	font-family: tahoma, sans-serif;
+}
+
+.normaltext {
+	font-size: 16px;
+}
+
+.largetext {
+	font-size: 18px;
+}
+
+/* Posts and personal messages displayed throughout the forum. */
+.post, .personalmessage {
+	width: 100%;
+	overflow: auto;
+	line-height: 1.3em;
+}
+
+/* All the signatures used in the forum.  If your forum users use Mozilla, Opera, or Safari, you might add max-height here ;). */
+.signature {
+	width: 100%;
+	overflow: auto;
+	padding-bottom: 3px;
+	line-height: 1.3em;
+}
+
+/* Sometimes there will be an error when you post */
+.error {
+	color: red;
+}
+
+/* definitions for the main tab, active means the tab reflects which page is displayed */
+.maintab_first, .maintab_back, .maintab_last, .maintab_active_first, .maintab_active_back, .maintab_active_last, .mirrortab_first, .mirrortab_back, .mirrortab_last, .mirrortab_active_first, .mirrortab_active_back, .mirrortab_active_last {
+	vertical-align: top;
+	text-transform: uppercase;
+}
+
+.maintab_back, .maintab_active_back, .mirrortab_back, .mirrortab_active_back {
+	text-decoration: none;
+	font-size: 11px;
+	padding: 5px;
+}
+
+.maintab_first,.mirrortab_first {
+	 display: none;
+}
+
+.maintab_back,.mirrortab_back {}
+
+.maintab_last,.mirrortab_last {
+	display: none;
+}
+
+.maintab_active_first, .mirrortab_active_first {
+	display: none;
+}
+
+.maintab_active_back, .mirrortab_active_back {
+	text-decoration: overline;
+}
+
+.maintab_active_last, .mirrortab_active_last {
+	display: none;
+}
+
+/* how links behave in main tab. */
+.maintab_back a:link, .maintab_back a:visited, .mirrortab_back a:link, .mirrortab_back a:visited {
+	color: #222;
+	text-decoration: none;
+}
+
+.maintab_active_back a:link, .maintab_active_back a:visited, .mirrortab_active_back a:link, .mirrortab_active_back a:visited {
+	color: #282828;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.maintab_back a:hover, .maintab_active_back a:hover, .mirrortab_back a:hover, .mirrortab_active_back a:hover {
+	color: #b43c01;
+	text-decoration: overline;
+}
+
+/* The AJAX notifier */
+#ajax_in_progress {
+	background: #32CD32;
+	color: white;
+	text-align: center;
+	font-weight: bold;
+	font-size: 18pt;
+	padding: 3px;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+
+.wrapper {
+	width: 960px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+#toparea {
+	background: url(../images/toparea.png) 0 0 repeat-x; 
+}
+
+#topbox {
+	background: url(../images/toparea-m.png) 50% 0 no-repeat;
+	height: 45px;
+}
+
+#userarea {
+    
+	text-align: center;
+	padding: 15px 0 0;
+	color: #555;
+}
+
+#userarea a:link, #userarea a:visited {
+	color: #b43c01;
+}
+
+#userarea a:hover {
+	color: #ccc;
+	text-decoration: underline;
+}
+
+#mainarea {
+	background: #bbbbae;
+	padding: 0 0 20px 0;
+}
+
+#bodybox {
+	background: #ffffff url(../images/right.png) 100% 0 repeat-y;
+}
+
+#bdybox-l {
+	background: url(../images/left.png) 0 0 repeat-y;
+}
+
+#bdybox-b {
+	background: url(../images/bot.png) 0 100% repeat-x;
+}
+
+#bdybox-br {
+	background: url(../images/bot-r.png) 100% 100% no-repeat;
+}
+
+#bdybox-bl {
+	background: url(../images/bot-l.png) 0 100% no-repeat;
+}
+
+#bdybox-t {
+	background: url(../images/top.png) 0 0 repeat-x;
+}
+
+#bdybox-tr {
+	background: url(../images/top-r.png) 100% 0 no-repeat;
+}
+
+#bdybox-tl {
+	background: url(../images/top-l.png) 0 0 no-repeat;
+	padding: 20px;
+}
+
+#header {
+	position: relative;
+	height: 85px;
+	overflow: hidden;
+	background: #bbbbae;
+}
+
+#logo a {
+	position: absolute;
+	left: 0;
+	display: block;
+	width: 350px;
+	height: 85px;
+	background: url(../images/logo.png) no-repeat;
+}
+
+#searcharea {
+	position: absolute;
+	bottom: 15px;
+	right: 10px;
+	height: 32px;
+	width: 172px;
+	background: url(../images/searchbox.png) no-repeat;
+	overflow: hidden;
+}
+
+#searcharea .inputbox {
+	background: #9f9f95;
+	color: #555;
+	padding: 3px 3px 0;
+	border: none;
+	margin: 7px 0 0 10px;
+	width: 120px;
+	height: 15px;
+}
+
+#toolbar {
+	background: #504f4f url(../images/toolbar-bg.png) 0 0 repeat-x;
+	height: 50px;
+}
+
+#toolbar-l {
+	background: #504f4f url(../images/toolbar-l.png) 0 0 no-repeat;
+	padding-left: 20px;
+}
+
+#toolbar-r {
+	background: #504f4f url(../images/toolbar-r.png) 100% 0 no-repeat;
+	padding-right: 20px;
+}
+
+#topmenu {
+	display: block;
+	position: relative;
+	height: 32px;
+	font-size: 11px;
+	text-transform: uppercase;
+	margin: 0;
+	float: left;
+	padding: 0;
+    text-align: left;
+    font-weight: bold;
+    float: left;
+
+}
+
+#topmenu ul {
+	margin: 14px 0 0;
+	padding: 0;
+	list-style-type: none;
+	width: auto;
+	float: left;
+    text-align: left;
+}
+#topmenu span
+{
+    color: #b43c01;
+}
+#topmenu ul li {
+	display: block;
+	float: left;
+	margin: 0 2px;
+    text-align: left;
+    
+}
+
+#topmenu ul li a {
+	display: inline;
+	float: left;
+	color: #444;
+	text-decoration: none;
+	padding: 0 0 0 10px;
+	height: 21px;
+	line-height: 21px;
+    #text-align: left;
+    
+}
+
+#topmenu ul li a span { 
+	padding: 0 9px 0 0;
+    text-align: right;
+}
+
+#topmenu ul li a:hover {
+	color: #000;
+    text-align: right;
+}
+
+#topmenu ul li a:hover span {#text-align: right;}
+
+#topmenu ul li a.current {
+	color: #fff;
+	background: #B94C16 url(../images/topmenu-on-l.png) 0 0 no-repeat;
+}
+
+#topmenu ul li a.current span {
+	display: block;
+	width: auto;
+	background: #B94C16 url(../images/topmenu-on-r.png) 100% 0 no-repeat;
+}
+
+.pathway {
+	color: #444;
+	font-size: 11px;
+	margin: 0;
+	padding: 10px 10px 10px 5px;
+	text-transform: uppercase;
+}
+
+.pathway a:link, .pathway a:visited {
+	color: #888;
+	font-weight: normal;
+	text-transform: none;
+}
+
+.pathway a:hover {
+	color: #333;
+	font-weight: normal;
+}
+#bottomarea {
+	background: url(../images/foot-bg.png) 0 100% repeat-x;
+	height: 105px;
+}
+
+#footer {
+	background: url(../images/foot-box.png) 50% 100% no-repeat;
+	height: 105px;
+}
+
+#footerarea {
+	text-align: center;
+	padding: 10px 0 0px;
+	color: #444;
+}
+
+#footerarea a:link, #footerarea a:visited {
+	color: #555;
+}
+
+#footerarea a:hover {
+	color: #222;
+	text-decoration: underline;
+}
+
+
+.table_head{
+    background-color: #b43c01;
+    color: white;
+    #border: thin;
+    text-align: center;
+    border: hidden;
+   
+}
+table {
+     
+	empty-cells: hide;
+    #border: ;
+   #border-style: solid;
+   # border-collapse: collapse;
+    
+}
+tr {
+	line-height: 150%;
+	font-family: tahoma, sans-serif;
+	color: #565656;
+	font-size: 12px;
+}
+td{
+    text-align: center;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: left;
+	font-family: tahoma, sans-serif;
+	border: double;
+    font-size: medium;
+    font-weight: bold;
+}
+.td_themes{
+    text-align: center;
+}
+.last_mess{
+    font-size: small;
+    text-align: left;
+    line-height: normal;
+}
+td, #noborder
+{
+    #border: hidden;
+}
+.user_mess
+{
+    border: thick;
+    width: 150px;
+    color: #b43c01;
+    line-height: 15px;
+    text-align: left;
+    border-right-width: 1px;
+    border-right-style: inset;
+    border-color: black;
+    
+}
+.mess
+{
+    font-size: 13px;
+    width: 800px;
+    line-height: 23px;
+    text-align: left;
+    float: left;
+    font-family: sans-serif;
+    border-width: 0px;
+}
+.icq
+{
+    color:#565656;
+    font-size: 2px;
+}
+.end_table
+{
+    border-bottom-width: 1px;
+    border-bottom-style: inset;
+}
+.begin_table_mess
+{
+    border: hidden;
+    width: 800px;
+    background-color: #b43c01;
+    color: white;
+    line-height: 15px;
+    border-bottom-style: inset;
+    border-bottom-width: 1px;
+    float: left;
+    text-align: left;
+}
+.begin_table
+{
+    border: hidden;
+    width: 150px;
+    color: white;
+    background-color: #b43c01;
+    line-height: 15px;
+    text-align: left;
+    border-right-width: 1px;
+    border-right-style: inset;
+    border-color: black;
+}
+
+.info_table_left
+{
+    border: hidden;
+    width: 150px;
+    line-height: 15px;
+
+   
+}
+.info_table_right
+{
+    border: hidden;
+    width: 100%;
+    height: 20px;
+    line-height: 10px;
+    border-bottom-style: inset;
+    border-bottom-width: 1px;
+    border-bottom-color: black;
+    float: left;
+    text-align: left;
+    font-size: x-small;
+    color: blue;
+}
+.img
+{
+    text-align: right;
+    float:right;
+}
+.create
+{
+    color:#b43c01;
+    font-weight: bold;
+    font-size: medium; 
+    text-align: center;
+}
