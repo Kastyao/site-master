@@ -1,7 +1,7 @@
 <!-- Footer -->
 <div class="wrapper row2">
   <div id="copyright" class="clear">
-    <p class="fl_left">Copyright &copy; 2013 - All Rights Reserved - <a href="#">Oleg Ivanov</a></p>
+    <p class="fl_left">Copyright &copy; 2016 - All Rights Reserved - <a href="#">Одесский национальный университет</a></p>
   </div>
 </div>
 <!-- Scripts -->

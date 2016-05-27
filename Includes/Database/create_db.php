@@ -6,9 +6,9 @@
 <?php
 
 define('DB_DSN', 'mysql:host=eu-cdbr-azure-north-e.cloudapp.net;');
-define('DB_DSN_NEW', 'mysql:host=eu-cdbr-azure-north-e.cloudapp.net;dbname=acsm_fd1933d83373a54');
-define('DB_LOGIN', 'bd59f15354d949');
-define('DB_PASSWORD', '85459f0d');
+define('DB_DSN_NEW', 'mysql:host=eu-cdbr-azure-north-e.cloudapp.net;dbname=acsm_50e2768e7b81018');
+define('DB_LOGIN', 'bfe45e648a7e95');
+define('DB_PASSWORD', '8aadcf5c');
 
 class CreateDB {
 	private $pdo;

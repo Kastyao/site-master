@@ -6,7 +6,7 @@ session_start();
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 <head>
-<title>RS-1200 Prototype 20</title>
+<title>ОНУ</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link href="../Includes/Template/layout/styles/main.css" rel="stylesheet" type="text/css" media="all">
@@ -26,10 +26,7 @@ session_start();
       <h1><a href="IndexView.php"><img src="../Includes/Images/1.gif" style="width:80px; float:left;">&nbsp;Одесский Национальный Университет<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; имени И.И.Мечникова</a></h1>
     </hgroup>
     <div id="header-contact">
-      <ul class="list none">
-        <li><span class="icon-envelope"></span> <a href="#">oleg_ivanov@gmail.com</a></li>
-        <li><span class="icon-phone"></span> +3(093) 048 25 46</li>
-      </ul>
+      
       <?=MainController::getLoginForm();?>
       </div>
     </div>
